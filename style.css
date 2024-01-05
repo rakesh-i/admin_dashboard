@@ -7,9 +7,49 @@
         "sidebar project project ann"
     ;
     /* height: 100vh; */
-    grid-template-columns: 250px;
+    grid-template-columns: .8fr 1fr 1fr .8fr;
     grid-template-rows: 150px 200px 200px 200px;
     /* grid-template-rows: 100px; */
+}
+
+svg{
+    width: 24px;
+    height: 24px;
+    fill:white
+}
+
+.grid-item.grid-item-1 a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    padding:0px 0px 16px 24px;
+    gap:24px;
+}
+
+.dashboard{
+    padding: 16px;
+    display: flex;
+    gap:18px;
+}
+.grid-item.grid-item-1 .dashboard a{
+    font-size: 20px;
+}
+.dashboard>svg{
+    width: 40px;
+    height: 40px;
+}
+
+.shortcuts{
+    padding-top: 40px;
+}
+
+.manage{
+    padding-top: 40px;
 }
 
 .grid-item-1{
@@ -44,6 +84,7 @@
     display: grid;
     grid-template-rows: 20px;
     row-gap:10px;
+    
 }
 
 .header{
@@ -54,20 +95,22 @@
 .cont{
     background-color: #ffffff;
     border-radius: 6px;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .trending{
     display: grid;
     grid-template-rows: 20px;
     row-gap:10px;
-
+    
 }
 
 
 .pro{
     background-color: white;
-    border-left: 6px solid orange;
+    border-left: 6px solid #eec01a;
     border-radius: 6px;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .head{
