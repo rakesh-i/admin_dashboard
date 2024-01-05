@@ -1,0 +1,173 @@
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+        "sidebar header header header"
+        "sidebar project project ann"
+        "sidebar project project ann"
+        "sidebar project project ann"
+    ;
+    /* height: 100vh; */
+    grid-template-columns: 250px;
+    grid-template-rows: 150px 200px 200px 200px;
+    /* grid-template-rows: 100px; */
+}
+
+.grid-item-1{
+    grid-area: sidebar;
+    background-color: #0092d1;
+}
+.grid-item-2{
+    grid-area: header;
+    background-color: #ffffff;
+}
+.grid-item-3{
+    grid-area: project;
+    background-color: #e1e8f0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20px;
+    padding: 10px;
+    row-gap: 15px;
+    column-gap: 15px;
+    padding-bottom: 30px;
+}
+.grid-item-4{
+    padding: 15px 15px 15px 5px;
+    grid-area: ann;
+    background-color: #e1e8ff;
+    display: grid;
+    gap:20px;
+    padding-bottom: 30px;
+}
+
+.announce{
+    display: grid;
+    grid-template-rows: 20px;
+    row-gap:10px;
+}
+
+.header{
+    font-size: 16px;
+    padding: 5px 0px;
+    font-weight: bold;
+}
+.cont{
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
+.trending{
+    display: grid;
+    grid-template-rows: 20px;
+    row-gap:10px;
+
+}
+
+
+.pro{
+    background-color: white;
+    border-left: 6px solid orange;
+    border-radius: 6px;
+}
+
+.head{
+    box-sizing: border-box;
+    font-size: 16px;
+    grid-column: span 2;
+    padding: 5px 0px;
+    font-weight: bold;
+}
+
+/* background style */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    font-family: Roboto;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #333;
+  height: 100%;
+  margin: 0;
+}
+
+.grid-container {
+  position: relative;
+  width: 100%;
+}
+
+.grid-item {
+  position: relative;
+  font-size: 25px;
+  /* background-color: #379AD6; */
+}
+
+/* .grid-item:nth-child(odd) {
+  background-color: #5bbdfa;
+} */
+
+/* .grid-item::before {
+  
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  top: 10px;
+  left: 15px;
+} */
+
+/* .grid-item::after {
+  position: absolute;
+  font-size: 25px;
+  top: 10px;
+  right: 15px;
+  font-weight: bold;
+}
+
+.grid-item-1::after {
+  content: '1';
+}
+
+.grid-item-2::after {
+  content: '2';
+}
+
+.grid-item-3::after {
+  content: '3';
+}
+
+.grid-item-4::after {
+  content: '4';
+}
+
+.grid-item-5::after {
+  content: '5';
+}
+
+.grid-item-6::after {
+  content: '6';
+}
+
+.grid-item-7::after {
+  content: '7';
+}
+
+.grid-item-8::after {
+  content: '8';
+}
+
+.grid-item-9::after {
+  content: '9';
+}
+
+.grid-item-10::after {
+  content: '10';
+}
+
+.grid-item-11::after {
+  content: '11';
+}
+ */
