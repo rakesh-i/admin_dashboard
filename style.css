@@ -60,6 +60,106 @@ svg{
     grid-area: header;
     background-color: #ffffff;
 }
+
+.top2.whole{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 48px;
+
+}
+
+.top2.pfp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  background-color:#eec01a;
+  border-radius: 20px;
+  color:white;
+  font-weight: bold;
+}
+
+.top2.left{
+  display: flex;
+  align-items: center;
+  gap:8px
+}
+.grid-item-2 svg{
+  fill: black;
+}
+
+.search-bar{
+  width: 350px;
+  height: 26px;
+  background-color: #e1e8f0;
+  border: none;
+  border-radius: 20px;
+}
+
+.top2.right{
+  display: flex;
+  align-items: center;
+  gap:20px;
+}
+
+.top2.name{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.top2.right svg{
+  flex-shrink: 0;
+}
+
+.bottom2.whole{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 48px 16px 48px;
+}
+
+.bottom2.left{
+  display: flex;
+  gap:20px;
+}
+
+.greet{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:4px;
+}
+
+.bottom2.name{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#g{
+  font-size: 16px;
+}
+
+.bottom2>button{
+  color: white;
+  font-weight: 600;
+  background-color: #0092d1;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.bottom2.pfp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color:white;
+  background-color: #eec01a;
+  border-radius: 30px;
+  height: 55px;
+  width: 55px;
+}
+
+
 .grid-item-3{
     grid-area: project;
     background-color: #e1e8f0;
@@ -120,6 +220,8 @@ svg{
     padding: 5px 0px;
     font-weight: bold;
 }
+
+
 
 /* background style */
 @import url('https://fonts.googleapis.com/css?family=Raleway');
