@@ -207,10 +207,30 @@ svg{
 
 
 .pro{
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
     background-color: white;
     border-left: 6px solid #eec01a;
     border-radius: 6px;
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    gap:10px;
+}
+
+.pro-option{
+  display: flex;
+  justify-content: flex-end;
+  gap:15px;
+}
+
+#pro-opt{
+  fill: black;
+  
+}
+
+.pro-head{
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .head{
@@ -247,7 +267,6 @@ html, body {
 
 .grid-item {
   position: relative;
-  font-size: 25px;
   /* background-color: #379AD6; */
 }
 
